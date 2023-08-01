@@ -1,4 +1,4 @@
-from torch.utils.data.datapipes.utils.common import TorchStreamWrapper
+from torch.utils.data.datapipes.utils.common import StreamWrapper as TorchStreamWrapper
 
 
 class StreamWrapper(TorchStreamWrapper):
