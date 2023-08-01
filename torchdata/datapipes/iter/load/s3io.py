@@ -7,9 +7,9 @@
 from io import BytesIO
 from typing import Iterator, List, Tuple, Union
 
-import torchdata
-
 from torch.utils.data.datapipes.utils.common import match_masks
+
+import torchdata
 from torchdata.datapipes import functional_datapipe
 from torchdata.datapipes.iter import IterDataPipe
 from torchdata.datapipes.utils import StreamWrapper
