@@ -38,7 +38,7 @@ def _get_build(var, default=False):
     return False
 
 
-_BUILD_S3 = _get_build("BUILD_S3", False)
+_BUILD_S3 = _get_build("BUILD_S3", True)
 _USE_SYSTEM_AWS_SDK_CPP = _get_build("USE_SYSTEM_AWS_SDK_CPP", False)
 _USE_SYSTEM_PYBIND11 = _get_build("USE_SYSTEM_PYBIND11", False)
 _USE_SYSTEM_LIBS = _get_build("USE_SYSTEM_LIBS", False)
